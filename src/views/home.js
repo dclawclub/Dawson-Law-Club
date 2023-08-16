@@ -106,8 +106,24 @@ const Home = (props) => {
         <div className="home-header">
           <h1 className="home-title">Welcome to the Law club!</h1>
           <p className="home-description">
-            A club for all Dawson students, in all programs. Join us as we dive
-            into a world of endless possibilities and learning! 
+            <span>
+              A club for all Dawson students, in all programs.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>
+              Join us as we dive into a world of endless possibilities
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>and learning! </span>
           </p>
         </div>
       </header>
@@ -147,9 +163,9 @@ const Home = (props) => {
                 />
               </Link>
               <div className="home-container03">
-                <span className="home-text04">Event</span>
-                <span className="home-text05">About: ...</span>
-                <span className="home-text06">Description</span>
+                <span className="home-text08">Event</span>
+                <span className="home-text09">About: ...</span>
+                <span className="home-text10">Description</span>
               </div>
             </div>
             <div className="home-blog-post-card1">
@@ -161,9 +177,9 @@ const Home = (props) => {
                 />
               </Link>
               <div className="home-container04">
-                <span className="home-text07">Event</span>
-                <span className="home-text08">About: ...</span>
-                <span className="home-text09">Description</span>
+                <span className="home-text11">Event</span>
+                <span className="home-text12">About: ...</span>
+                <span className="home-text13">Description</span>
               </div>
             </div>
             <div className="home-blog-post-card2">
@@ -175,9 +191,9 @@ const Home = (props) => {
                 />
               </Link>
               <div className="home-container05">
-                <span className="home-text10">Event</span>
-                <span className="home-text11">About: ...</span>
-                <span className="home-text12">Description</span>
+                <span className="home-text14">Event</span>
+                <span className="home-text15">About: ...</span>
+                <span className="home-text16">Description</span>
               </div>
             </div>
           </div>
@@ -187,11 +203,11 @@ const Home = (props) => {
       </div>
       <div className="home-container08">
         <div className="home-client">
-          <p className="home-text13">
+          <p className="home-text17">
             Want to learn more about the team? Click here!
           </p>
           <Link to="/team" className="home-navlink09 start-button button">
-            <span className="home-text14">Team</span>
+            <span className="home-text18">Team</span>
           </Link>
         </div>
       </div>
@@ -204,7 +220,7 @@ const Home = (props) => {
         <div className="home-container10"></div>
       </div>
       <div className="home-client1">
-        <p className="home-text15">
+        <p className="home-text19">
           The calendar changes the moment we add information into it!
         </p>
       </div>
@@ -227,7 +243,7 @@ const Home = (props) => {
               href="mailto:dclawclub@gmail.com?subject="
               className="home-link5 start-button button"
             >
-              <span className="home-text16">Contact</span>
+              <span className="home-text20">Contact</span>
             </a>
           </div>
           <div className="home-links2">
@@ -262,7 +278,7 @@ const Home = (props) => {
               data-thq="thq-dropdown-toggle"
               className="home-dropdown-toggle"
             >
-              <span className="home-text17">Sub-menu Item</span>
+              <span className="home-text21">Sub-menu Item</span>
             </div>
           </li>
           <li data-thq="thq-dropdown" className="home-dropdown1 list-item">
@@ -270,7 +286,7 @@ const Home = (props) => {
               data-thq="thq-dropdown-toggle"
               className="home-dropdown-toggle1"
             >
-              <span className="home-text18">Sub-menu Item</span>
+              <span className="home-text22">Sub-menu Item</span>
             </div>
           </li>
           <li data-thq="thq-dropdown" className="home-dropdown2 list-item">
@@ -278,7 +294,7 @@ const Home = (props) => {
               data-thq="thq-dropdown-toggle"
               className="home-dropdown-toggle2"
             >
-              <span className="home-text19">Sub-menu Item</span>
+              <span className="home-text23">Sub-menu Item</span>
             </div>
           </li>
         </ul>
